@@ -14,8 +14,8 @@ i Center for the Ecology of Infectious Diseases, University of Georgia, Athens, 
 j Department of Biological Sciences, University of Tasmania, Tasmania, Australia
 
 
-
-
-Full manuscript available here:
+Full manuscript available soon.
 
 Raw 16S sequencing reads available in NCBI SRA BioProject PRJNA1076586
+
+Next-generation sequencing datasets were subjected to quality control and trimming (Trimmomatic) prior to analysis with mothur software following a modified MiSeq SOP: https://mothur.org/wiki/miseq_sop/ (Schloss et al., 2009). For the mothur analysis, data were reduced to unique sequences and their associated frequencies. The unique sequences were then classified using the SILVA taxonomic database version 138.1 (Pruesse et al., 2007) obtained from https://mothur.org/wiki/silva_reference_files/. Chimeric sequences and other potential contaminants (such as mitochondria) were removed. Data were then clustered into operational taxonomic units (OTUs) using distance-based greedy clustering at 97% identity and reclassified to identify the prevalent microbial taxa and the associated abundances.
